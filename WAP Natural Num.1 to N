@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int number,i=1;
+printf("\n enter any integer value:");
+scanf("%d",&number);
+printf("\n list of natural num from 1 to %d are \n",number);
+for(i=1;i<=number;i++)
+{
+printf("%d \t",i);
+}
+    return 0;
+}
