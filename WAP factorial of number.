@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int n,i, a=1;
+printf("the factorial of a given number");
+scanf("%d",&n);
+for(int i=1;i<=n;i++){
+a*=i;
+ }   
+ printf("the factorial of a is %d",a);
+ return 0;
+}
